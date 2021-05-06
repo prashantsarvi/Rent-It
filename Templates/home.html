@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        .omkar {
+            display: block;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            height: 30%;
+          }
+          p{
+            text-align: center;
+            font-size: 30px;
+            color: white;
+          }
+    </style>
+</head>
+<body bgcolor="black">
+    
+    <img class = "omkar" src= "{% static "buddha.jpg" %}" alt="Budhha" width="80" height="80"> <br>
+    <p><b> "Pain is inevitable, but suffering is optional"</b></p>
+</body>
+</html>
